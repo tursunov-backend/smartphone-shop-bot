@@ -1,13 +1,6 @@
-from telegram.ext import (
-    Updater,
-    CommandHandler,
-)
-
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from bot.handlers import start_command, text_router
 from bot.config import settings
-from bot.handlers import (
-    start_command,
-    send_smartphones_handler,
-)
 
 
 def main():
@@ -15,7 +8,7 @@ def main():
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start_command))
-    dp.add_handler(CommandHandler("Telefonlar", send_smartphones_handler))
+    dp.add_handler(MessageHandler(Filters.text, text_router))
 
     updater.start_polling()
     updater.idle()

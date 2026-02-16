@@ -16,19 +16,22 @@ class Database:
     def read_database(self) -> dict:
         with open(self.file_name) as f:
             self.data = json.loads(f.read())
+        return self.data
 
     def save_database(self) -> dict:
         with open(self.file_name, "w") as f:
             f.write(json.dumps(self.data, indent=4))
 
-    def add_user(self, user_id: int, first_name):
+    def add_user(self, user_id: int, first_name: str):
         self.read_database()
-        self.data["users"].setdefault(user_id, {"first_name": first_name})
-        self.save_database()
 
-    def get_smartphones(self) -> list:
-        self.read_database()
-        return self.data.get("smartphones", [])
+        if "users" not in self.data:
+            self.data["users"] = {}
+
+        user_id = str(user_id)
+        self.data["users"].setdefault(user_id, {"first_name": first_name})
+
+        self.save_database()
 
 
 db = Database()

@@ -1,40 +1,509 @@
 {
-    "users": {
-        "1258594598": {
-            "first_name": "Diyorbek"
-        },
-        "6949813355": {
-            "first_name": "Fayzullayevv"
-        },
-        "5084553945": {
-            "first_name": "_ozodbekh_"
-        },
-        "6583283938": {
-            "first_name": "\u0410\u0431\u0434\u0443\u0436\u0430\u043b\u043e\u043b"
-        },
-        "8153082299": {
-            "first_name": "\ud835\udc0e\u2018\ud835\udc25\ud835\udc26\ud835\udc1a\ud835\udc2c\ud835\udc1b\ud835\udc1e\ud835\udc24 \ud835\udc10\ud835\udc28\u2018\ud835\udc2c\ud835\udc21\ud835\udc2a\ud835\udc2e\ud835\udc25\ud835\udc28\ud835\udc2f \uf8ff"
-        },
-        "7734282103": {
-            "first_name": "\u0411\u0435\u0440\u0434\u0438\u043c\u0443\u0440\u043e\u0434\u043e\u0432.\u041d \ud83e\uddd1\u200d\ud83c\udf93"
-        },
-        "8442022598": {
-            "first_name": "Bobur"
-        },
-        "6345124148": {
-            "first_name": "Laziz"
-        }
-    },
     "smartphones": {
         "1": {
+            "brand": "Samsung",
+            "model": "Galaxy S21",
+            "price": "$320",
+            "ram": 8,
+            "color": "Black",
+            "power": "94",
+            "docs": true,
+            "image": "https://m.media-amazon.com/images/I/61XyNdmvr6L._AC_UF894,1000_QL80_.jpg"
+        },
+        "2": {
+            "brand": "Apple",
+            "model": "iPhone 11",
+            "price": "$230",
+            "ram": 4,
+            "color": "Green",
+            "power": "92",
+            "docs": true,
+            "image": "https://www.mapleuk.co.uk/wp-content/uploads/2024/04/A2221_1-2.webp"
+        },
+        "3": {
+            "brand": "Xiaomi",
+            "model": "Redmi Note 10",
+            "price": "$170",
+            "ram": 6,
+            "color": "Black",
+            "power": "88",
+            "docs": false,
+            "image": "https://im.mobilemonsters.lv/images/models/Xiaomi%20Redmi%20Note%2010%20(M2101K7AI).jpg"
+        },
+        "4": {
             "brand": "Apple",
             "model": "iPhone XS",
+            "price": "$180",
+            "ram": 4,
+            "color": "Silver",
+            "power": "90",
+            "docs": true,
+            "image": "https://i.ebayimg.com/images/g/o~AAAOSwiGxoATLU/s-l400.png"
+        },
+        "5": {
+            "brand": "Oppo",
+            "model": "Reno 5",
+            "price": "$260",
+            "ram": 8,
+            "color": "Blue",
+            "power": "91",
+            "docs": true,
+            "image": "https://m.media-amazon.com/images/I/61C8QBe68CL.jpg"
+        },
+        "6": {
+            "brand": "Samsung",
+            "model": "Galaxy A51",
+            "price": "$170",
+            "ram": 6,
+            "color": "Blue",
+            "power": "86",
+            "docs": false,
+            "image": "https://m.media-amazon.com/images/I/51Qf2mKV82L._AC_UF1000,1000_QL80_.jpg"
+        },
+        "7": {
+            "brand": "Huawei",
+            "model": "P30",
+            "price": "$210",
+            "ram": 6,
+            "color": "Orange",
+            "power": "89",
+            "docs": true,
+            "image": "https://www.giztop.com/media/catalog/product/cache/97cc1143d2e20f2b0c8ea91aaa12053c/h/u/huawei_p30-12_5_1.png"
+        },
+        "8": {
+            "brand": "Xiaomi",
+            "model": "Mi 11",
+            "price": "$350",
+            "ram": 8,
+            "color": "White",
+            "power": "95",
+            "docs": true,
+            "image": "https://i.ebayimg.com/images/g/ohsAAOSwRIJgfa4F/s-l400.jpg"
+        },
+        "9": {
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "price": "$330",
+            "ram": 4,
+            "color": "Green",
+            "power": "96",
+            "docs": true,
+            "image": "https://cdn.renderhub.com/rever-art/apple-iphone-12-green/apple-iphone-12-green-01.jpg"
+        },
+        "10": {
+            "brand": "Vivo",
+            "model": "V21",
+            "price": "$280",
+            "ram": 8,
+            "color": "White",
+            "power": "90",
+            "docs": true,
+            "image": "https://initiative.co.in/wp-content/uploads/2022/09/Untitled-design-5-102.jpg"
+        },
+        "11": {
+            "brand": "Realme",
+            "model": "Realme 8",
+            "price": "$160",
+            "ram": 6,
+            "color": "gray",
+            "power": "87",
+            "docs": false,
+            "image": "https://www.gadgetmatch.com/wp-content/uploads/2021/03/realme-8-cyber-silver-india.jpg"
+        },
+        "12": {
+            "brand": "Samsung",
+            "model": "Galaxy S10",
+            "price": "$190",
+            "ram": 8,
+            "color": "Gold",
+            "power": "90",
+            "docs": true,
+            "image": "https://mobilecity-live.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2022/02/05050616/G02-600x400.jpg"
+        },
+        "13": {
+            "brand": "Nokia",
+            "model": "G20",
+            "price": "$160",
+            "ram": 4,
+            "color": "Gray",
+            "power": "83",
+            "docs": false,
+            "image": "https://yantranepal.com/wp-content/uploads/2023/03/Nokia-G20-5.jpg"
+        },
+        "14": {
+            "brand": "Apple",
+            "model": "iPhone X",
             "price": "$150",
-            "ram": 64,
+            "ram": 3,
             "color": "Black",
+            "power": "89",
+            "docs": true,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK4hUEwOtRPxF56ObKUpyKMYDkBXoR4scAdQ&s"
+        },
+        "15": {
+            "brand": "Tecno",
+            "model": "Camon 17",
+            "price": "$190",
+            "ram": 6,
+            "color": "Green",
+            "power": "86",
+            "docs": true,
+            "image": "https://www.phonestablets.co.ke/wp-content/uploads/2021/05/Tecno-Camon-17-3-Tranquil-Green.jpg"
+        },
+        "16": {
+            "brand": "Motorola",
+            "model": "Edge 20",
+            "price": "$310",
+            "ram": 8,
+            "color": "Black",
+            "power": "92",
+            "docs": true,
+            "image": "https://www.notebookcheck-ru.com/uploads/tx_nbc2/MotorolaEdge20Pro__1_.png"
+        },
+        "17": {
+            "brand": "Xiaomi",
+            "model": "Poco X3",
+            "price": "$200",
+            "ram": 6,
+            "color": "Gray",
+            "power": "89",
+            "docs": false,
+            "image": "https://rounded.com/images/detailed/157/xiaomi-poco-x3-pro-m2102j20sg-m2102j20si-battery-cover-metal-bronze-55050000un6d.png"
+        },
+        "18": {
+            "brand": "Sony",
+            "model": "Xperia 5",
+            "price": "$300",
+            "ram": 6,
+            "color": "Black",
+            "power": "90",
+            "docs": true,
+            "image": "https://www.sony.com.tw/image/dae23edc294287acc10c6b6125d5e2a3?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+        },
+        "19": {
+            "brand": "Huawei",
+            "model": "Nova 7",
+            "price": "$230",
+            "ram": 8,
+            "color": "Green",
+            "power": "88",
+            "docs": false,
+            "image": "https://m.media-amazon.com/images/I/41Nj3VZVtdL.jpg"
+        },
+        "20": {
+            "brand": "Samsung",
+            "model": "Galaxy S20",
+            "price": "$300",
+            "ram": 8,
+            "color": "Gray",
+            "power": "94",
+            "docs": true,
+            "image": "https://fonezone.me/cdn/shop/products/Untitled_1_q.jpg?v=1735622594"
+        },
+        "21": {
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "price": "$420",
+            "ram": 4,
+            "color": "Red",
+            "power": "97",
+            "docs": true,
+            "image": "https://i.ytimg.com/vi/M7KGQycxR30/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDIESHskNTUqKtiHly2tUkcKlTeHQ"
+        },
+        "22": {
+            "brand": "Infinix",
+            "model": "Zero 8",
+            "price": "$220",
+            "ram": 8,
+            "color": "Silver",
+            "power": "88",
+            "docs": true,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8wVyLQ0wat4pRCM2pkTCtIaSQZTD-R8oeDQ&s"
+        },
+        "23": {
+            "brand": "Asus",
+            "model": "Zenfone 8",
+            "price": "$350",
+            "ram": 8,
+            "color": "Black",
+            "power": "95",
+            "docs": true,
+            "image": "https://cdn.mos.cms.futurecdn.net/8DywoQ7veNUZfH8R9f4PJM.jpg"
+        },
+        "24": {
+            "brand": "Vivo",
+            "model": "Y20",
+            "price": "$150",
+            "ram": 4,
+            "color": "Blue",
+            "power": "84",
+            "docs": false,
+            "image": "https://api-rayashop.freetls.fastly.net/media/catalog/product/cache/4e49ac3a70c0b98a165f3fa6633ffee1/y/2/y20.jpg?format=webp&width=700"
+        },
+        "25": {
+            "brand": "Oppo",
+            "model": "A54",
+            "price": "$170",
+            "ram": 4,
+            "color": "Blue",
+            "power": "85",
+            "docs": false,
+            "image": "https://image.oppo.com/content/dam/oppo/product-asset-library/a/a54/a54-overview-5/v1/assets/phone-type-img-1920.png"
+        },
+        "26": {
+            "brand": "Samsung",
+            "model": "Galaxy Note 10",
+            "price": "$280",
+            "ram": 8,
+            "color": "Black",
+            "power": "91",
+            "docs": true,
+            "image": "https://m.media-amazon.com/images/I/61kJwlX9NOL.jpg"
+        },
+        "27": {
+            "brand": "Xiaomi",
+            "model": "Redmi 9",
+            "price": "$140",
+            "ram": 4,
+            "color": "Green",
+            "power": "82",
+            "docs": false,
+            "image": "https://cdn.renderhub.com/rever-art/xiaomi-redmi-9-ocean-green/xiaomi-redmi-9-ocean-green-16.jpg"
+        },
+        "28": {
+            "brand": "Apple",
+            "model": "iPhone SE 2020",
+            "price": "$200",
+            "ram": 3,
+            "color": "White",
+            "power": "90",
+            "docs": true,
+            "image": "https://m.media-amazon.com/images/I/51Pn96PRolL._AC_UF1000,1000_QL80_.jpg"
+        },
+        "29": {
+            "brand": "Realme",
+            "model": "GT Neo",
+            "price": "$270",
+            "ram": 8,
+            "color": "Blue",
+            "power": "91",
+            "docs": true,
+            "image": "https://www.techreviewer.de/wp-content/uploads/2022/06/realme-gt-neo-3-header.jpg"
+        },
+        "30": {
+            "brand": "Nokia",
+            "model": "X10",
+            "price": "$250",
+            "ram": 6,
+            "color": "Green",
+            "power": "87",
+            "docs": true,
+            "image": "https://i.ebayimg.com/images/g/jA0AAOSwsptiO4Zp/s-l1200.jpg"
+        },
+        "31": {
+            "brand": "Tecno",
+            "model": "Spark 7",
+            "price": "$120",
+            "ram": 3,
+            "color": "Blue",
+            "power": "78",
+            "docs": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-monfa9ZnAonLx3ULFJiD8H8De0uAKIQ7JQ&s"
+        },
+        "32": {
+            "brand": "Samsung",
+            "model": "Galaxy A32",
+            "price": "$190",
+            "ram": 6,
+            "color": "Black",
+            "power": "87",
+            "docs": false,
+            "image": "https://www.smartgearnz.co.nz/cdn/shop/files/samsung-galaxy-a32-4gb-128gb-6.4.jpg?v=1741080515"
+        },
+        "33": {
+            "brand": "Huawei",
+            "model": "P40",
+            "price": "$320",
+            "ram": 8,
+            "color": "Silver",
             "power": "93",
             "docs": true,
-            "image": "https://frankfurt.apollo.olxcdn.com/v1/files/nw15vl5qc2wn2-UZ/image"
+            "image": "https://m.media-amazon.com/images/I/61EJUaQnRaL.jpg"
+        },
+        "34": {
+            "brand": "Xiaomi",
+            "model": "Redmi Note 11",
+            "price": "$200",
+            "ram": 6,
+            "color": "Blue",
+            "power": "90",
+            "docs": true,
+            "image": "https://m.media-amazon.com/images/I/81zLNgcvlaL._AC_UF350,350_QL80_FMwebp_.jpg"
+        },
+        "35": {
+            "brand": "Apple",
+            "model": "iPhone 14 pro",
+            "price": "$520",
+            "ram": 6,
+            "color": "Black",
+            "power": "98",
+            "docs": true,
+            "image": "https://techup.nz/cdn/shop/files/Apple-iPhone-14-Pro-Max-1TB-Space-Black-New-Battery-Excellent-Refurbished-eSIM-Model.png?v=1762145928"
+        },
+        "36": {
+            "brand": "Sony",
+            "model": "Xperia 10",
+            "price": "$220",
+            "ram": 4,
+            "color": "White",
+            "power": "85",
+            "docs": false,
+            "image": "https://i.ebayimg.com/images/g/ckcAAOSwx0NmyIeg/s-l1200.png"
+        },
+        "37": {
+            "brand": "Motorola",
+            "model": "G30",
+            "price": "$180",
+            "ram": 6,
+            "color": "Blue",
+            "power": "86",
+            "docs": false,
+            "image": "https://motorolain.vtexassets.com/arquivos/ids/160658/motorola-g-45-.png?v=638890267871270000"
+        },
+        "38": {
+            "brand": "Infinix",
+            "model": "Note 10",
+            "price": "$150",
+            "ram": 4,
+            "color": "Green",
+            "power": "84",
+            "docs": false,
+            "image": "https://media.gadgetbytenepal.com/2021/05/Infinix-Note-10-Design-and-Display.jpg"
+        },
+        "39": {
+            "brand": "Asus",
+            "model": "ROG Phone 5",
+            "price": "$450",
+            "ram": 12,
+            "color": "Black",
+            "power": "99",
+            "docs": true,
+            "image": "https://www.gizmochina.com/wp-content/uploads/2021/08/2-2.jpg"
+        },
+        "40": {
+            "brand": "Vivo",
+            "model": "Y33s",
+            "price": "$180",
+            "ram": 6,
+            "color": "Yellow",
+            "power": "86",
+            "docs": false,
+            "image": "https://projuktikotha.com/wp-content/uploads/2022/04/Vivo-Y33s-Price-in-Bangladesh.webp"
+        },
+        "41": {
+            "brand": "Samsung",
+            "model": "Galaxy Z Flip",
+            "price": "$480",
+            "ram": 8,
+            "color": "Purple",
+            "power": "93",
+            "docs": true,
+            "image": "https://preview.free3d.com/img/2020/03/2374257498669450583/o4p6xuk6.jpg"
+        },
+        "42": {
+            "brand": "Apple",
+            "model": "iPhone XR",
+            "price": "$210",
+            "ram": 3,
+            "color": "Red",
+            "power": "89",
+            "docs": true,
+            "image": "https://p.turbosquid.com/ts-thumb/yA/PlZkgV/id4FyJjS/red4/jpg/1610022526/600x600/fit_q87/59bf83fe2de1443179f03e78a20de91d8b4f3c16/red4.jpg"
+        },
+        "43": {
+            "brand": "Xiaomi",
+            "model": "Mi 10T",
+            "price": "$290",
+            "ram": 8,
+            "color": "Gray",
+            "power": "92",
+            "docs": true,
+            "image": "https://m.media-amazon.com/images/I/51zexXgaEQL._AC_UF1000,1000_QL80_.jpg"
+        },
+        "44": {
+            "brand": "Oppo",
+            "model": "Find X3",
+            "price": "$420",
+            "ram": 12,
+            "color": "Black",
+            "power": "95",
+            "docs": true,
+            "image": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x3-series-cn/navigation/Find%20X3%20series-navigation-black-v2.png"
+        },
+        "45": {
+            "brand": "Realme",
+            "model": "C55",
+            "price": "$170",
+            "ram": 6,
+            "color": "Gold",
+            "power": "85",
+            "docs": false,
+            "image": "https://noventiqstore.ge/files/resized/products/realme-c55_1.1920x1080.jpeg"
+        },
+        "46": {
+            "brand": "Nokia",
+            "model": "8.3",
+            "price": "$300",
+            "ram": 8,
+            "color": "Blue",
+            "power": "89",
+            "docs": true,
+            "image": "https://static.wikia.nocookie.net/hmd_nokia/images/d/d6/BGT.png/revision/latest?cb=20201110020731"
+        },
+        "47": {
+            "brand": "Huawei",
+            "model": "Mate 30",
+            "price": "$350",
+            "ram": 8,
+            "color": "Black",
+            "power": "94",
+            "docs": true,
+            "image": "https://m.media-amazon.com/images/I/617BDueM7mL._AC_UF1000,1000_QL80_.jpg"
+        },
+        "48": {
+            "brand": "Tecno",
+            "model": "Phantom X",
+            "price": "$320",
+            "ram": 8,
+            "color": "Silver",
+            "power": "91",
+            "docs": true,
+            "image": "https://phonebolee.com/images/Tecno-Phantom-X.jpg"
+        },
+        "49": {
+            "brand": "Motorola",
+            "model": "Edge 30",
+            "price": "$340",
+            "ram": 8,
+            "color": "Green",
+            "power": "93",
+            "docs": true,
+            "image": "https://cdn.mafrservices.com/pim-content/UAE/media/product/2262724/1760775005/2262724_main.jpg?im=Resize=400"
+        },
+        "50": {
+            "brand": "Samsung",
+            "model": "Galaxy S23",
+            "price": "$650",
+            "ram": 12,
+            "color": "Black",
+            "power": "99",
+            "docs": true,
+            "image": "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/268868_0_iz3gsn.png"
+        }
+    },
+    "users": {
+        "6583283938": {
+            "first_name": "Abdujalol"
         }
     }
 }
